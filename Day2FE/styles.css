@@ -1,0 +1,16 @@
+body{
+    background-color: gainsboro;
+    background-image: url(bg_img.jpg);
+    background-blend-mode:overlay
+}
+div{
+    
+    margin: 0;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    margin-right: -10%;
+    transform: translate(-10%, -10%);
+    font-size:x-large;
+    font-family: 'Sen', sans-serif;
+}
