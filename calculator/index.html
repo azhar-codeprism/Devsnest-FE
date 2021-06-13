@@ -2,31 +2,35 @@
     <head>
         <title>Calculator</title>
         <link rel="stylesheet" href = "styles.css">
+        <script src="script2.js" defer></script>
     </head>
     <body>
         <section id="container">
-            <div id ="upper">0121
+            <div id ="upper">
+                <div id = res></div>
+                <div id = inp></div>
             </div>
             <div id ="buttons">
-                <button> AC </button>
-                <button> &#8676 </button>
-                <button> % </button>
-                <button class = "r5"> / </button>
-                <button> 7 </button>
-                <button> 8 </button>
-                <button> 9 </button>
-                <button class = "r5"> X </button>
-                <button> 4 </button>
-                <button> 5 </button>
-                <button> 6 </button>
-                <button class = "r5"> - </button>
-                <button> 1 </button>
-                <button> 2 </button>
-                <button> 3 </button>
-                <button class = "r5"> + </button>
-                <button id="zero"> 0 </button>
-                <button> . </button>
-                <button class = "r5"> = </button>
+                <button class = "oper" id="clr" value="AC"> AC </button>
+                <button class="nmbr">(</button>
+                <button class="nmbr">)</button>
+                <!-- <button class = "oper"id = "bckspc" value="bck"> &#8676 </button> -->
+                <button class = "r5 oper"> / </button>
+                <button class="nmbr">7</button>
+                <button class="nmbr">8</button>
+                <button class="nmbr">9</button>
+                <button class = "r5 oper">*</button>
+                <button class="nmbr">4</button>
+                <button class="nmbr">5</button>
+                <button class="nmbr">6</button>
+                <button class = "r5 oper">-</button>
+                <button class="nmbr">1</button>
+                <button class="nmbr">2</button>
+                <button class="nmbr">3</button>
+                <button class = "r5 oper">+</button>
+                <button class="nmbr" id="zero">0</button>
+                <button class="nmbr">.</button>
+                <button class = "r5 oper" value="="> = </button>
             </div>
         </section>
     </body>

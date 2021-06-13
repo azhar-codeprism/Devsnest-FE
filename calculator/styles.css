@@ -2,7 +2,7 @@
 #upper{
     border: 4px solid #f4c983;
     width: 320px;
-    height: 60px;
+    height: 120px;
     border-radius:40px;
     font-size: 50px;
     margin-bottom:20px;
@@ -10,7 +10,12 @@
     padding:10px;
     color: #f4c983;
     font-weight: bold;
+    overflow: scroll;
+    text-overflow: clip;
 }
+#upper::-webkit-scrollbar {
+    display: none;
+  }
 #buttons{
     display: grid;
     grid-template-columns: 80px 80px 80px 80px;
@@ -23,6 +28,11 @@
     grid-column-end: 3;
     border-radius: 50px;
 
+}
+#bckspc{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    border-radius: 50px;
 }
 button{
     border-radius: 50%;
