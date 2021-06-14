@@ -5,8 +5,53 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Devsnest FrontEnd THA </title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
 </head>
 <body>
-    
-</body>
+    <div id="container">
+        <button class="ele" onclick="window.open('Day1FE/index.html')">Day1</button>
+        <button class="ele" onclick="window.open('Day2FE/index.html')">Day2</button>
+        <button class="ele" onclick="window.open('Day3FE/index.html')">Day3</button>
+        <button class="ele" onclick="window.open('Day4FE/index.html')">Day4</button>
+        <button class="ele" onclick="window.open('calculator/index.html')">Calculator</button>
+        <button class="ele" onclick="window.open('Day6FE/index.html')">Day6</button>
+        
+    </div>
+
+    <style>
+        @keyframes slideInFromLeft {
+            0% {
+                transform: translateY(-100%);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+        body{
+           background-color: #3A4750;
+        }
+        #container{
+            animation: 1s ease-out 0s 1 slideInFromLeft;
+            display: flex;
+            flex-direction: column;
+        }
+        .ele{
+            
+            margin:10px;
+            display: block;
+            border: 0px solid;
+            width: 10%;
+            height: 80px;
+            padding: 10px;
+            font-size: x-large;
+            text-align: center;
+            font-family: 'Rajdhani', sans-serif;
+            font-weight: bold;
+            background-color: #D72323;
+            border-radius: 10px;
+            box-shadow: #D72323 5px 4px ;
+            color:#EEEEEE
+        }
+    </style>
 </html>
