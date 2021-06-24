@@ -1,0 +1,24 @@
+.outer {
+	margin-top: 8rem;
+  }
+  .front {
+	display: grid;
+	grid-template-columns: repeat(20, 22px);
+	align-content: center;
+	justify-content: center;
+	align-content: center;
+  }
+  .box {
+	width: 20px;
+	height: 19px;
+	border: 1px solid white;
+	border-radius: 5px;
+  }
+  
+  .box:hover {
+	opacity: 0.2;
+  }
+  
+  .boxclicked {
+	background-color: #4682b4;
+  }
