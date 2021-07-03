@@ -14,46 +14,57 @@
         <button class="ele" onclick="window.open('Day2FE/index.html')">Day2</button>
         <button class="ele" onclick="window.open('Day3FE/index.html')">Day3</button>
         <button class="ele" onclick="window.open('Day4FE/index.html')">Day4</button>
-        <button class="ele" onclick="window.open('calculator/index.html')">Calculator</button>
+        <button class="ele" onclick="window.open('calculator/index.html')">Calc</button>
         <button class="ele" onclick="window.open('Day6FE/index.html')">Day6</button>
         <button class="ele" onclick="window.open('Day7FE/index.html')">Day7</button>
         <button class="ele" onclick="window.open('Day8FE/index.html')">Day8</button>
-        
+        <button class="ele" onclick="window.open('Day9FE/index.html')">Day9</button>
+        <button class="ele" onclick="window.open('Day10FE/index.html')">Day10</button>
+        <button class="ele" onclick="window.open('Day11FE/index.html')">Day11</button>
     </div>
 
     <style>
-        @keyframes slideInFromLeft {
+        @keyframes move-from-right {
             0% {
-                transform: translateY(-100%);
+                transform: translateX(100%);
             }
             100% {
-                transform: translateX(0);
+                transform: translateY(0%);
             }
         }
-        body{
-           background-color: #3A4750;
+        @keyframes circle {
+            0% { clip-path: circle(25%);
+                color: transparent;
+                background-color: transparent; }
+            50% { clip-path: circle(75%);}
         }
+        body{
+            background:#014441;
+        }
+
         #container{
-            animation: 1s ease-out 0s 1 slideInFromLeft;
+            /* animation: 2.5s ease 1s 1 slideInFromTop; */
             display: flex;
-            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            animation: move-from-right  ease 2s;
         }
         .ele{
             
             margin:10px;
-            display: block;
-            border: 0px solid;
+            display: inline-block;
+            border: 0px;
             width: 10%;
-            height: 80px;
+            height: 100px;
             padding: 10px;
             font-size: x-large;
             text-align: center;
             font-family: 'Rajdhani', sans-serif;
             font-weight: bold;
-            background-color: #D72323;
-            border-radius: 10px;
-            box-shadow: #D72323 5px 4px ;
-            color:#EEEEEE
+            background-color: #FFA900;
+            border-radius: 5px 15px 5px 15px;
+            color:#01252A;
+            animation: circle 3s;
         }
     </style>
 </html>
