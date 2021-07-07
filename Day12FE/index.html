@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-height, initial-scale=1.0">
+    <link rel = "stylesheet" href="styles.css">
+    <script src = "script.js" defer></script>
+    <title>To-Do List</title>
+</head>
+<body>
+    <div id = "container">
+        <section id = "upper">
+            <span id = "upper-span">Date</span>
+                <div id = "dates-div">
+                    <button id = "add-day">+</button>
+                </div>
+        </section>
+        <div id = "modal" class = "invisible">
+            <input type="date" class="modal-content">
+            <button id = "date-ok" class = "modal-content"> &#10003 </button>
+        </div>
+        <section id = "lower" class = "">
+            <span id = "lower-span">Tasks</span>
+                <div id = "tasks-div">
+                    <button id = "add-task">+</button>
+                </div>
+        </section>
+        <div id = "add-task-modal" class = "invisible">
+            <input type="text" class="modal-content" placeholder="Add description">
+            <button id = "task-ok" class = "modal-content"> &#10003 </button>
+        </div>
+    </div>
+</body>
+</html>
