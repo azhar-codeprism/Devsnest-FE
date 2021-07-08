@@ -8,26 +8,11 @@
     <title>To-Do List</title>
 </head>
 <body>
-    <div id = "container">
-        <section id = "upper">
-            <span id = "upper-span">Date</span>
-                <div id = "dates-div">
-                    <button id = "add-day">+</button>
-                </div>
-        </section>
-        <div id = "modal" class = "invisible">
-            <input type="date" class="modal-content">
-            <button id = "date-ok" class = "modal-content"> &#10003 </button>
-        </div>
-        <section id = "lower" class = "">
-            <span id = "lower-span">Tasks</span>
-                <div id = "tasks-div">
-                    <button id = "add-task">+</button>
-                </div>
-        </section>
-        <div id = "add-task-modal" class = "invisible">
-            <input type="text" class="modal-content" placeholder="Add description">
-            <button id = "task-ok" class = "modal-content"> &#10003 </button>
+    <div id = "main">
+        <button id = "add-task" class = "task"> Add Task</button>
+        <div class= " task invisible" id="add-task-modal">
+            <input id = "input-task" type="text" placeholder="Enter Task" id = "0">
+            <button id = "reg-task-btn"> &#10003 </button>
         </div>
     </div>
 </body>
