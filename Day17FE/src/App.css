@@ -1,0 +1,26 @@
+*{
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #C6B4CE;
+}
+.card{
+  width: 45vh;
+  padding : 20px;
+  margin : 20px;
+  border-radius: 8px;
+  background-color: #3C5186;
+  color: #C6B4CE;
+}
+.container{
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #9B72AA;
+}
