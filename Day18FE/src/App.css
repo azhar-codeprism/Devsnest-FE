@@ -4,26 +4,17 @@
   box-sizing: border-box;
 }
 body{
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   display: flex;
-  align-items: center;
   justify-content: space-around;
-  height: 90vh;
+  align-items: center;
+  height: 100vh;
 }
-.black-box{
-  background-color: black;
-  width: 3vh;
-  height: 3vh;
+.box {
+  border: 1px solid white;
+  width: 30px;
+  height: 30px;
 }
-.white-box{
-  background-color: white;
-  width: 3vh;
-  height: 3vh;
-  border: 1px solid black;
-
-}
-.chessboard{
-  display: flex;
-  flex-direction: row;
-
-}
+.board {
+  display: grid;
+  grid-template-columns: repeat(8, 30px);
+  border: 28px solid black}
