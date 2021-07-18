@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
+*{
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  background-color: #F1ECC3;
+}
+button{
+  padding:15px 20px 5px 20px;
+  margin: 10px;
+  font-size: 3rem;
+  font-family: 'Zen Loop', cursive;
+  font-weight: bold;
+  background-color: #57837B;
+  color: #F1ECC3;
+  border-radius: 5px;
+}
+button:hover{
+  background-color: #C9D8B6;
+  color: #57837B;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 40vh;
+}
