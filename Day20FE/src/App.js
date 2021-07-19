@@ -4,7 +4,7 @@ import Card  from './components/Card';
 let list = [{recepie:"Pizza",description:"you have consumed 56 cals today"},
             {recepie:"Borgir",description:"you have consumed 69 cals today"},
             {recepie:"Coke",description:"you have consumed 500 cals today"},
-            {recepie:"Lassania",description:"you have consumed 600 cals today"},
+            {recepie:"Lasagna",description:"you have consumed 600 cals today"},
             {recepie:"Fried Rice",description:"you have consumed 200 cals today"}]
 
 function App() {
