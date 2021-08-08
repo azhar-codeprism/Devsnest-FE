@@ -1,0 +1,42 @@
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+}
+.tempelate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 2px;
+  border: 1px solid lightgray;
+}
+.tempelate img {
+  width: 100%;
+  border: 1px solid lightgray;
+}
+.editContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 50px;
+}
+.editContainer img {
+  height: 70vh;
+  margin: 20px;
+  border: 1px solid lightgray;
+}
+.editContainer button {
+  padding: 20px;
+  margin: 10px;
+}
+
+.editContainer input {
+  padding: 10px;
+  margin: 10px;
+}
