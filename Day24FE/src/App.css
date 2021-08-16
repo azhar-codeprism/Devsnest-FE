@@ -1,0 +1,38 @@
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.nav-element a {
+  color: white;
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: x-large;
+}
+
+.navbar {
+  margin: 30px 20px 0px 20px;
+  padding: 20px 100px 20px 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: cornflowerblue;
+}
+.align-middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5vh 0vh 5vh 0vh;
+}
+
+.align-middle button {
+  padding: 20px;
+  font-size: 20px;
+}
+.align-middle p {
+  font-size: x-large;
+}
